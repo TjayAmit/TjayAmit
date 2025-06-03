@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm TjayAmit!
 
-## Getting Started
+## 🚀 About Me
 
-First, run the development server:
+I'm a passionate **Software Engineer** specializing in building impactful solutions with **JavaScript**, **React**, and **Laravel**. My work is driven by a mission to bridge gaps in healthcare and empower organizations through innovative software.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🩺 Key Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Telemedicine Platform**  
+  _Connecting doctors to doctors as referring partners, ensuring patients in remote areas receive timely and expert care._
+- **Patient Navigation and Referral System**  
+  _Streamlining hospital-to-tertiary hospital transfer requests, optimizing patient journeys and outcomes._
+- **UMIS (User Management Information System)**  
+  _A centralized HRIS solution that unifies employee accounts, delivering secure, single-source authorization and authentication for organizations._
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Top Skills
 
-To learn more about Next.js, take a look at the following resources:
+- JavaScript, React
+- Laravel, PHP
+- System Design for Healthcare
+- User Management & Authentication
+- Building Scalable, Mission-Critical Applications
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ☕ Fun Fact
 
-## Deploy on Vercel
+I thrive on challenging tasks—where my skills grow the most. Also, coffee is my code fuel!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<!--
+🔗 Add your social links and project URLs here!
+[LinkedIn]()
+[Twitter]()
+[Personal Website]()
+-->
+
+---
+
+Thanks for visiting my profile! Let's connect and build something amazing together.
