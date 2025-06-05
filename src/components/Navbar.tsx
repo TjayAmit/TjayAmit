@@ -2,12 +2,20 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Button from "./Button";
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
+	const [loading, setLoading] = useState(false);
 
 	function downloadResume() {
-		console.log("Click downloadResume");
+		setLoading(true);
+		// Simple link approach
+		const link = document.createElement('a');
+		link.href = '/assets/resume.pdf';
+		link.download = 'YourName_Resume.pdf';
+		link.click();
+		setLoading(false);
 	}
 
 	return (
@@ -73,15 +81,14 @@ export default function Navbar() {
 					</div>
 
 					{/* Resume Button */}
-					<div className="hidden md:flex items-center ml-4">
-						<button
-							type="button"
-							onClick={downloadResume}
-							className="h-10 flex items-center px-6 cursor-pointer bg-white rounded-3xl"
-						>
-							<span className="font-semibold text-black text-lg">Resume</span>
-						</button>
-					</div>
+				    <Button
+						variant='primary'
+						onClick={downloadResume}
+						className="custom-class"
+						disabled={loading}
+					>
+						Resume
+					</Button>
 				</div>
 
 				{/* Mobile Navigation */}
