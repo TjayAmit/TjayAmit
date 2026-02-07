@@ -15,7 +15,7 @@ export default function Navbar() {
 		const handleScroll = () => {
 			setScrolled(window.scrollY > 20);
 
-			const sections = ["about", "projects", "skills", "contact"];
+			const sections = ["about", "projects", "side-projects", "contact"];
 			const offset = 150;
 
 			for (const section of sections) {
@@ -89,7 +89,7 @@ export default function Navbar() {
 	const navItems = [
 		{ name: "About", href: "about" },
 		{ name: "Projects", href: "projects" },
-		{ name: "Skills", href: "skills" },
+		{ name: "Side Projects", href: "side-projects" },
 		{ name: "Contact", href: "contact" },
 	];
 

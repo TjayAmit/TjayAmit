@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import AboutSection from '@/components/sections/AboutSection';
 import ProjectsSection from '@/components/sections/ProjectsSection';
-import SkillsSection from '@/components/sections/SkillsSection';
+import SideProjects from '@/components/sections/SideProjects';
 import ContactSection from '@/components/sections/ContactSection';
 import IntroductionSection from '@/components/sections/IntroductionSection';
 
@@ -13,7 +13,7 @@ export default function Home() {
         <IntroductionSection />
         <AboutSection />
         <ProjectsSection />
-        <SkillsSection />
+        <SideProjects />
         <ContactSection />
       </div>
     </main>
