@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import AboutSection from "@/components/sections/AboutSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import SideProjects from "@/components/sections/SideProjects";
 import ContactSection from "@/components/sections/ContactSection";
@@ -11,7 +10,6 @@ export default function Home() {
 			<Navbar />
 			<div className="pt-16">
 				<IntroductionSection />
-				<AboutSection />
 				<ProjectsSection />
 				<SideProjects />
 				<ContactSection />

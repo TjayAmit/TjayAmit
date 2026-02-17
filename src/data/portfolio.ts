@@ -39,7 +39,7 @@ export const PROFILE = {
 	shortName: "Tjay",
 	role: "Software Developer",
 	summary:
-		"Experienced software developer specializing in production-ready backend systems with Laravel and PHP. Capable of delivering full-stack applications as needed.",
+		"I'm Problem Solver & Passionate about turning company challenges into community solutions. currently focusing in developing systems to bridge the healthcare gap for remote patients at Zamboanga City Medical Center.",
 };
 
 export const NAV_ITEMS: NavItem[] = [
