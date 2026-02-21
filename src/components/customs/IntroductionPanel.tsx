@@ -108,6 +108,46 @@ export default function IntroductionPanel({
 				<path d="M12.8 2.1 4 10.9v8.7l4.4 2.3h6.8l4.8-4.8V9.6l-7.2-7.5Zm-.5 2.5 5 5.2-3.5 3.4-5-5.2 3.5-3.4Zm-5 13.7v-6l3.5 3.7-3.5 2.3Zm5.8 1.2H9.2l4.6-3 3.7-3.5v3.7l-4.4 2.5Z" />
 			</svg>
 		),
+		redis: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M12 3 4 6.5v3L12 13l8-3.5v-3L12 3Zm-8 8.5v3L12 18l8-3.5v-3L12 15l-8-3.5Zm0 5v1.8L12 22l8-3.7v-1.8L12 20l-8-3.5Z" />
+			</svg>
+		),
+		docker: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M9 6h2v2H9V6Zm2.5 0h2v2h-2V6ZM6.5 9h2v2h-2V9ZM9 9h2v2H9V9Zm2.5 0h2v2h-2V9Zm2.5 0h2v2h-2V9Zm-7.5 3h9.2c.3 1.2 1.1 1.9 2.5 1.8 1.1-.1 2-.7 2.7-1.7-.4-.2-.9-.4-1.2-.8.4-.2 1-.3 1.4-.2.2-.8-.1-1.7-.8-2.3-.6.4-1 .9-1.2 1.5H17c-.4-1.1-1.4-1.8-2.6-1.8H6v2.5h-.5V12h1Z" />
+			</svg>
+		),
+		apache: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M5 18.5 10.5 5h2.2L7.2 18.5H5Zm6.2 0L15.8 7h2.2l-4.6 11.5h-2.2Z" />
+			</svg>
+		),
+		nginx: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M12 2 3.5 7v10L12 22l8.5-5V7L12 2Zm-2.4 6.1h1.8l3 5V8.6h1.7v6.8h-1.8l-3-5v4.5H9.6V8.1Z" />
+			</svg>
+		),
 		react: (
 			<svg
 				className="w-5 h-5"

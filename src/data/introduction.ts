@@ -8,7 +8,11 @@ export interface TechStackItem {
 		| "react"
 		| "javascript"
 		| "flutter"
-		| "dart";
+		| "dart"
+		| "redis"
+		| "docker"
+		| "apache"
+		| "nginx";
 	label: string;
 	colorClass: string;
 }
@@ -34,4 +38,8 @@ export const INTRODUCTION_TECH_STACK: TechStackItem[] = [
 	{ key: "fastapi", label: "FastAPI", colorClass: "text-[#009688]" },
 	{ key: "flutter", label: "Flutter", colorClass: "text-[#02569B]" },
 	{ key: "dart", label: "Dart", colorClass: "text-[#0175C2]" },
+	{ key: "redis", label: "Redis", colorClass: "text-[#DC382D]" },
+	{ key: "docker", label: "Docker", colorClass: "text-[#2496ED]" },
+	{ key: "apache", label: "Apache", colorClass: "text-[#D22128]" },
+	{ key: "nginx", label: "Nginx", colorClass: "text-[#009639]" },
 ];
