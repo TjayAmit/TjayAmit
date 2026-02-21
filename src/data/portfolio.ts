@@ -117,12 +117,12 @@ export const PROJECT_CATEGORIES = [
 export const PROJECTS: Project[] = [
 	{
 		id: 1,
-		title: "E-commerce Platform",
+		title: "Telemedicine System",
 		description:
-			"Full-stack e-commerce solution with real-time inventory, secure Stripe payments, admin analytics dashboard, and user-friendly shopping experience.",
-		tags: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+			"Built a telemedicine platform with video consultations to reduce emergency room congestion and extend specialist access to remote patients across Zamboanga del Sur, Zamboanga Sibugay, Zamboanga del Norte, and BASULTA.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "WebSocket"],
 		category: "fullstack",
-		image: "/projects/ecommerce.jpg",
+		image: "/assets/images/telemedicine_web.png",
 		liveUrl: "https://example.com/demo-ecommerce",
 		githubUrl: "https://github.com/yourusername/ecommerce-platform",
 		metrics: {
@@ -132,12 +132,12 @@ export const PROJECTS: Project[] = [
 	},
 	{
 		id: 2,
-		title: "Portfolio Website",
+		title: "Referral System",
 		description:
-			"Modern, fast, SEO-optimized personal portfolio with dark mode, smooth animations, responsive design, and dynamic content management.",
-		tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+			"Developed a hospital referral network for emergency patient transfers, aligning transfer requests with receiving-facility readiness and helping decongest ZCMC through coordinated hospital-to-hospital communication.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL"],
 		category: "frontend",
-		image: "/projects/portfolio.jpg",
+		image: "/assets/images/referral.png",
 		liveUrl: "https://yourportfolio.com",
 		githubUrl: "https://github.com/yourusername/portfolio",
 		metrics: {
@@ -147,11 +147,21 @@ export const PROJECTS: Project[] = [
 	},
 	{
 		id: 3,
-		title: "Task Management API",
+		title: "User Management Information System",
 		description:
-			"Robust RESTful API with JWT authentication, role-based access control, comprehensive test suite, and clean architecture design.",
-		tags: ["Node.js", "Express", "PostgreSQL", "Jest", "TypeScript"],
+			"Led development of a Central User Management and Human Resource Information System that serves as the hospital's unified records and authentication hub for multiple internal systems.",
+		tags: [
+			"Laravel",
+			"PHP",
+			"React",
+			"Tailwind CSS",
+			"Flutter",
+			"FastAPI",
+			"Dart",
+			"Python",
+		],
 		category: "backend",
+		image: "/assets/images/umis.png",
 		githubUrl: "https://github.com/yourusername/task-api",
 		metrics: {
 			coverage: "95%",

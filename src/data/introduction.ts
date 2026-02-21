@@ -1,5 +1,14 @@
 export interface TechStackItem {
-	key: "laravel" | "fastapi" | "typescript" | "flutter" | "react" | "node" | "socket";
+	key:
+		| "laravel"
+		| "php"
+		| "typescript"
+		| "fastapi"
+		| "python"
+		| "react"
+		| "javascript"
+		| "flutter"
+		| "dart";
 	label: string;
 	colorClass: string;
 }
@@ -16,10 +25,13 @@ export const INTRODUCTION_ABOUT = {
 
 export const INTRODUCTION_TECH_STACK: TechStackItem[] = [
 	{ key: "laravel", label: "Laravel", colorClass: "text-[#FF2D20]" },
-	{ key: "fastapi", label: "FastAPI", colorClass: "text-[#009688]" },
+	{ key: "php", label: "PHP", colorClass: "text-[#777BB4]" },
 	{ key: "typescript", label: "TypeScript", colorClass: "text-[#3178C6]" },
-	{ key: "flutter", label: "Flutter", colorClass: "text-[#02569B]" },
+	{ key: "fastapi", label: "FastAPI", colorClass: "text-[#009688]" },
+	{ key: "python", label: "Python", colorClass: "text-[#3776AB]" },
 	{ key: "react", label: "React.js", colorClass: "text-[#61DAFB]" },
-	{ key: "node", label: "Node.js", colorClass: "text-[#5FA04E]" },
-	{ key: "socket", label: "Socket", colorClass: "text-[#010101] dark:text-white" },
+	{ key: "javascript", label: "JavaScript", colorClass: "text-[#F7DF1E]" },
+	{ key: "fastapi", label: "FastAPI", colorClass: "text-[#009688]" },
+	{ key: "flutter", label: "Flutter", colorClass: "text-[#02569B]" },
+	{ key: "dart", label: "Dart", colorClass: "text-[#0175C2]" },
 ];

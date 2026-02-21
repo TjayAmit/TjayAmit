@@ -38,6 +38,16 @@ export default function IntroductionPanel({
 				<path d="M2 7.8 12 2l10 5.8v8.4L12 22l-4.2-2.4V15l4.2 2.4 6-3.5V10l-6 3.5L6 10v4.9L2 12.5V7.8Zm4 0 6 3.5 6-3.5-6-3.5-6 3.5Z" />
 			</svg>
 		),
+		php: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M3 12c0-4.4 3.8-8 9-8s9 3.6 9 8-3.8 8-9 8-9-3.6-9-8Zm6.4-2.3h2.1c1.5 0 2.3-.7 2.3-1.9s-.8-1.9-2.3-1.9H8.1v8.2h1.3V9.7Zm1.9-2.7c.8 0 1.2.3 1.2.8s-.4.8-1.2.8H9.4V7h1.9Z" />
+			</svg>
+		),
 		fastapi: (
 			<svg
 				className="w-5 h-5"
@@ -46,6 +56,16 @@ export default function IntroductionPanel({
 				aria-hidden="true"
 			>
 				<path d="M13.2 2 6 11.5h4.4L8.6 22 18 9.8h-4.2L13.2 2Z" />
+			</svg>
+		),
+		python: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M12 2c-3.3 0-3.1 1.4-3.1 1.4V5h3.2v.5H7.7S5.6 5.3 5.6 8.8c0 3.5 1.8 3.4 1.8 3.4h1.1v-1.5s-.1-1.8 1.8-1.8h3.2s1.8 0 1.8-1.7V4.9S15.5 2 12 2Zm-1.8 1.1a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4Zm1.8 18.9c3.3 0 3.1-1.4 3.1-1.4V19h-3.2v-.5h4.4s2.1.2 2.1-3.3c0-3.5-1.8-3.4-1.8-3.4h-1.1v1.5s.1 1.8-1.8 1.8h-3.2S8.7 15 8.7 16.7v2.4S8.5 22 12 22Zm1.8-1.1a.7.7 0 1 1 0-1.4.7.7 0 0 1 0 1.4Z" />
 			</svg>
 		),
 		typescript: (
@@ -58,6 +78,16 @@ export default function IntroductionPanel({
 				<path d="M3 3h18v18H3V3Zm10.3 6.3h6.2V11h-2v6h-2.2v-6h-2V9.3ZM9.8 9.2c-1.7 0-2.8.9-2.8 2.3 0 1.2.7 1.9 2.3 2.3 1 .3 1.3.5 1.3.9 0 .5-.4.7-1 .7-.8 0-1.5-.2-2.2-.8V17c.8.5 1.7.7 2.6.7 1.8 0 2.9-.9 2.9-2.4 0-1.2-.7-1.9-2.2-2.3-1-.2-1.4-.5-1.4-.9s.4-.7 1-.7c.7 0 1.3.2 2 .7V9.9c-.7-.4-1.5-.7-2.5-.7Z" />
 			</svg>
 		),
+		javascript: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M3 3h18v18H3V3Zm10.2 13.5c.4.7 1 1.2 2 1.2.8 0 1.3-.4 1.3-1 0-.7-.5-1-1.5-1.4l-.5-.2c-1.4-.6-2.3-1.3-2.3-2.8 0-1.4 1.1-2.5 2.8-2.5 1.2 0 2.1.4 2.8 1.5l-1.5.9c-.3-.6-.7-.8-1.2-.8-.6 0-.9.3-.9.8 0 .6.3.8 1.2 1.2l.5.2c1.6.7 2.5 1.4 2.5 3 0 1.7-1.3 2.6-3.1 2.6-1.8 0-2.9-.8-3.5-1.9l1.4-.8Zm-6.5.2c.3.5.6.9 1.2.9.6 0 .9-.2.9-1v-5.3h1.9v5.3c0 1.6-.9 2.4-2.4 2.4-1.4 0-2.2-.7-2.6-1.5l1-.8Z" />
+			</svg>
+		),
 		flutter: (
 			<svg
 				className="w-5 h-5"
@@ -66,6 +96,16 @@ export default function IntroductionPanel({
 				aria-hidden="true"
 			>
 				<path d="M14.3 2 5 11.3l2.8 2.8L20 2H14.3ZM7.8 16.8l3.9 3.9h5.7l-6.8-6.8-2.8 2.9Z" />
+			</svg>
+		),
+		dart: (
+			<svg
+				className="w-5 h-5"
+				viewBox="0 0 24 24"
+				fill="currentColor"
+				aria-hidden="true"
+			>
+				<path d="M12.8 2.1 4 10.9v8.7l4.4 2.3h6.8l4.8-4.8V9.6l-7.2-7.5Zm-.5 2.5 5 5.2-3.5 3.4-5-5.2 3.5-3.4Zm-5 13.7v-6l3.5 3.7-3.5 2.3Zm5.8 1.2H9.2l4.6-3 3.7-3.5v3.7l-4.4 2.5Z" />
 			</svg>
 		),
 		react: (
@@ -94,26 +134,6 @@ export default function IntroductionPanel({
 					transform="rotate(120 12 12)"
 					strokeWidth="1.4"
 				/>
-			</svg>
-		),
-		node: (
-			<svg
-				className="w-5 h-5"
-				viewBox="0 0 24 24"
-				fill="currentColor"
-				aria-hidden="true"
-			>
-				<path d="M12 2.5 4.5 6.8v10.4L12 21.5l7.5-4.3V6.8L12 2.5Zm0 2 5.7 3.3v8.5L12 19.5l-5.7-3.2V7.8L12 4.5Z" />
-			</svg>
-		),
-		socket: (
-			<svg
-				className="w-5 h-5"
-				viewBox="0 0 24 24"
-				fill="currentColor"
-				aria-hidden="true"
-			>
-				<path d="M12 2 5 6v8l7 4 7-4V6l-7-4Zm0 2.2 4.8 2.7v5.6L12 15.2l-4.8-2.7V6.9L12 4.2Z" />
 			</svg>
 		),
 	};
@@ -171,9 +191,9 @@ export default function IntroductionPanel({
 							{techTitle}
 						</p>
 						<ul className="mt-3 flex flex-wrap gap-2">
-							{techStack.map((item) => (
+							{techStack.map((item, index) => (
 								<li
-									key={item.label}
+									key={`${item.key}-${item.label}-${index}`}
 									className="inline-flex items-center gap-2 px-3 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-sm sm:text-md text-gray-700 dark:text-gray-200"
 								>
 									<span className={item.colorClass}>{iconMap[item.key]}</span>
