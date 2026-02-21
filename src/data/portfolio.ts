@@ -43,9 +43,9 @@ export const PROFILE = {
 };
 
 export const NAV_ITEMS: NavItem[] = [
-	{ name: "About", href: "about" },
+	{ name: "About", href: "introduction" },
+	{ name: "Experience", href: "experience" },
 	{ name: "Projects", href: "projects" },
-	{ name: "Side Projects", href: "side-projects" },
 	{ name: "Contact", href: "contact" },
 ];
 

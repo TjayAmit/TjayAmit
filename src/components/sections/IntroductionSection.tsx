@@ -73,6 +73,7 @@ export default function IntroductionSection() {
 	return (
 		<section
 			ref={sectionRef}
+			id="introduction"
 			className="relative min-h-screen flex items-center justify-center px-6 py-12 overflow-hidden bg-gray-50 dark:bg-gray-950"
 		>
 			<div className="absolute inset-0 -z-10">

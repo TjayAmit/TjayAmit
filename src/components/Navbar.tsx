@@ -16,16 +16,18 @@ export default function Navbar() {
 			setScrolled(window.scrollY > 20);
 
 			const offset = 150;
+			let nextSection = "";
 			for (const section of NAV_ITEMS.map((item) => item.href)) {
 				const element = document.getElementById(section);
 				if (!element) continue;
 
 				const rect = element.getBoundingClientRect();
 				if (rect.top <= offset && rect.bottom >= offset) {
-					setActiveSection(section);
+					nextSection = section;
 					break;
 				}
 			}
+			setActiveSection(nextSection || NAV_ITEMS[0]?.href || "");
 		};
 
 		window.addEventListener("scroll", handleScroll);
@@ -58,12 +60,12 @@ export default function Navbar() {
 			<nav
 				className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
 					scrolled
-						? "bg-white/90 dark:bg-gray-950/90 backdrop-blur-xl shadow-sm border-b border-gray-200/50 dark:border-gray-800/50"
+						? "bg-white/95 dark:bg-gray-950/95 backdrop-blur-xl shadow-sm border-b border-gray-200/70 dark:border-gray-800/80"
 						: "bg-transparent"
 				}`}
 			>
-				<div className="max-w-7xl mx-auto px-6 lg:px-8">
-					<div className="flex justify-between items-center h-20">
+				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div className="flex justify-between items-center h-16 sm:h-18 lg:h-20">
 						<Link
 							href="/"
 							className="group"
@@ -76,7 +78,7 @@ export default function Navbar() {
 							<HexLogo />
 						</Link>
 
-						<div className="hidden md:flex items-center space-x-1">
+						<div className="hidden md:flex items-center gap-1 lg:gap-2">
 							<NavItems
 								items={NAV_ITEMS}
 								activeSection={activeSection}
@@ -87,7 +89,7 @@ export default function Navbar() {
 
 						<button
 							onClick={() => setIsOpen(!isOpen)}
-							className="md:hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+							className="md:hidden p-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white/90 dark:bg-gray-900/90 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
 							aria-label="Toggle menu"
 						>
 							<div className="w-6 h-6 relative flex items-center justify-center">
@@ -112,7 +114,7 @@ export default function Navbar() {
 			/>
 
 			<div
-				className={`fixed top-0 right-0 bottom-0 w-full sm:w-80 bg-white dark:bg-gray-950 z-50 transform transition-transform duration-300 ease-in-out ${
+				className={`fixed top-0 right-0 bottom-0 w-[85%] max-w-sm bg-white dark:bg-gray-950 z-50 transform transition-transform duration-300 ease-in-out ${
 					isOpen ? "translate-x-0" : "translate-x-full"
 				} shadow-2xl md:hidden`}
 			>
@@ -140,7 +142,7 @@ export default function Navbar() {
 						</button>
 					</div>
 
-					<div className="flex-1 overflow-y-auto py-8 px-6 space-y-2">
+					<div className="flex-1 overflow-y-auto py-7 px-5 space-y-2">
 						<NavItems
 							items={NAV_ITEMS}
 							activeSection={activeSection}

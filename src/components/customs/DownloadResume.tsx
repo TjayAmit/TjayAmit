@@ -26,7 +26,7 @@ export default function DownloadResume({
 			<button
 				onClick={downloadResume}
 				disabled={loading}
-				className="w-full px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+				className="w-full px-5 py-3 rounded-xl bg-indigo-600 text-white font-medium hover:bg-indigo-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-sm"
 			>
 				{loading ? (
 					<>
@@ -47,9 +47,9 @@ export default function DownloadResume({
 		<button
 			onClick={downloadResume}
 			disabled={loading}
-			className="relative px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg overflow-hidden group hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
+			className="px-4 py-2.5 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-sm"
 		>
-			<span className="relative z-10 flex items-center gap-2">
+			<span className="flex items-center gap-2">
 				{loading ? (
 					<>
 						<LoadingIcon className="h-4 w-4" />
@@ -62,7 +62,6 @@ export default function DownloadResume({
 					</>
 				)}
 			</span>
-			<div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
 		</button>
 	);
 }
