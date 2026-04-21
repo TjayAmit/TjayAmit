@@ -11,28 +11,28 @@ const EXPERIENCE_ITEMS: ExperienceItem[] = [
 		role: "Computer Programmer II",
 		company: "Zamboanga City Medical Center",
 		summary:
-			"Implemented a major Telemedicine upgrade by adding video consultation for faster consultation, and contributed to multiple systems through UMIS auth and user-record integration.",
+			"Built Mearb e-bidding system and company public dashboard with real-time analytics, facilitated UMIS integration and employee clinic deployment, established company-wide CI/CD pipeline using GitHub Actions and Docker on on-premise server to proactively address future deployment challenges, and mentored team on best practices for long-term system sustainability.",
 	},
 	{
 		year: "2023",
 		role: "Computer Programmer I",
 		company: "Zamboanga City Medical Center",
 		summary:
-			"Developed the User Management Information System as a central authentication and HR information platform, enabling connection across different hospital systems.",
+			"Architected on-premise production environment. Led the development of centralized User Management System, standardized authentication via SSO across core systems, and delivered major telemedicine upgrade adding WebRTC video conferencing support.",
 	},
 	{
 		year: "2022",
 		role: "Admin Aid III",
 		company: "Zamboanga City Medical Center",
 		summary:
-			"Redeveloped the Telemedicine student project into a working internal system foundation.",
+			"Transformed Telemedicine from a student prototype into a production-ready internal system foundation, establishing the groundwork for hospital-wide telemedicine implementation.",
 	},
 	{
 		year: "2021",
 		role: "Freelance Developer",
 		company: "Cecile's Pharmacy",
 		summary:
-			"Delivered PR/PO generation for future purchasing based on branch sales trends and current per-branch inventory.",
+			"Developed PR/PO procurement system using Node.js and React.js to digitize requisition workflows, enabling automated purchase request generation based on inventory and sales data.",
 	},
 ];
 
@@ -43,6 +43,10 @@ export default function ExperienceSection() {
 			className="py-16 md:py-20 bg-white dark:bg-gray-950"
 		>
 			<div className="max-w-5xl mx-auto px-6 lg:px-8">
+				<h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-10">
+					Experience
+				</h2>
+
 				<div className="relative">
 					<div className="pointer-events-none absolute left-2.5 top-0 bottom-0 w-px bg-gradient-to-b from-indigo-500/60 via-indigo-400/25 to-transparent dark:from-indigo-400/70 dark:via-indigo-500/30" />
 
@@ -56,7 +60,7 @@ export default function ExperienceSection() {
 									<div className="w-1.5 h-1.5 rounded-full bg-indigo-600 dark:bg-indigo-400" />
 								</div>
 
-								<div className="rounded-xl border border-gray-200/90 dark:border-gray-800 bg-white/85 dark:bg-gray-900/70 backdrop-blur-sm p-4 md:p-5 shadow-sm">
+								<div>
 									<div className="flex flex-wrap items-center gap-2.5 mb-2.5">
 										<p className="inline-flex px-2 py-1 rounded-md bg-indigo-50 dark:bg-indigo-900/40 text-[11px] tracking-[0.1em] uppercase font-semibold text-indigo-700 dark:text-indigo-300">
 											{item.year}

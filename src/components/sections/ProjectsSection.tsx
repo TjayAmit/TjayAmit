@@ -32,15 +32,23 @@ interface ProjectCardProps {
 function FeaturedProjectCard({ project, index }: ProjectCardProps) {
 	const imageOnLeft = index % 2 === 1;
 
+	const CardWrapper = project.liveUrl ? 'a' : 'article';
+	const cardProps = project.liveUrl ? {
+		href: project.liveUrl,
+		target: '_blank',
+		rel: 'noopener noreferrer',
+		className: `group grid lg:grid-cols-2 gap-8 xl:gap-12 items-center ${imageOnLeft ? "lg:[&>*:first-child]:order-2" : ""}`
+	} : {
+		className: `grid lg:grid-cols-2 gap-8 xl:gap-12 items-center ${imageOnLeft ? "lg:[&>*:first-child]:order-2" : ""}`
+	};
+
 	return (
-		<article
-			className={`grid lg:grid-cols-2 gap-8 xl:gap-12 items-center ${imageOnLeft ? "lg:[&>*:first-child]:order-2" : ""}`}
-		>
+		<CardWrapper {...cardProps}>
 			<div className="space-y-5 relative z-10">
-				<p className="text-sm md:text-base font-semibold uppercase tracking-[0.18em] text-indigo-600 dark:text-indigo-400">
+				<p className="text-sm md:text-base font-semibold uppercase tracking-[0.18em] text-indigo-600 dark:text-indigo-400 dark:drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">
 					Featured Project
 				</p>
-				<h3 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+				<h3 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white dark:drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
 					{project.title}
 				</h3>
 				<div
@@ -48,7 +56,7 @@ function FeaturedProjectCard({ project, index }: ProjectCardProps) {
 						imageOnLeft ? "lg:ml-[-20%]" : ""
 					}`}
 				>
-					<p className="text-sm md:text-base text-gray-800 dark:text-gray-100 leading-relaxed">
+					<p className="text-sm md:text-base text-gray-800 dark:text-gray-100 leading-relaxed dark:drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
 						{project.description}
 					</p>
 				</div>
@@ -70,6 +78,14 @@ function FeaturedProjectCard({ project, index }: ProjectCardProps) {
 						</li>
 					))}
 				</ul>
+				{project.liveUrl && (
+					<div className="mt-4 flex items-center gap-2 text-indigo-600 dark:text-indigo-400 font-medium">
+						<span>View Live Site</span>
+						<svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+						</svg>
+					</div>
+				)}
 			</div>
 
       <div className="relative z-0">
@@ -77,14 +93,14 @@ function FeaturedProjectCard({ project, index }: ProjectCardProps) {
         <div className="pointer-events-none absolute -inset-6 rounded-[2.25rem] bg-purple-500/20 blur-3xl" />
         <div className="pointer-events-none absolute inset-0 rounded-2xl bg-[radial-gradient(circle,rgba(255,255,255,0.35)_0%,rgba(99,102,241,0.18)_45%,rgba(0,0,0,0)_75%)] dark:bg-[radial-gradient(circle,rgba(30,41,59,0.4)_0%,rgba(99,102,241,0.22)_45%,rgba(0,0,0,0)_75%)]" />
 
-        <div className="relative overflow-hidden rounded-2xl border border-white/40 dark:border-gray-700/60 shadow-2xl min-h-[280px] sm:min-h-[340px]">
+        <div className="relative overflow-hidden rounded-2xl border border-white/40 dark:border-gray-700/60 shadow-2xl min-h-[280px] sm:min-h-[340px] group-hover:border-indigo-500/50 dark:group-hover:border-indigo-400/50 transition-colors">
           {project.image ? (
             <NextImage
 							src={project.image}
 							alt={project.title}
 							fill
 							sizes="(max-width: 1024px) 100vw, 50vw"
-							className="object-cover"
+							className="object-cover group-hover:scale-105 transition-transform duration-300"
 						/>
 					) : (
 						<div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-400 dark:text-gray-600">
@@ -105,7 +121,7 @@ function FeaturedProjectCard({ project, index }: ProjectCardProps) {
 					)}
 				</div>
 			</div>
-		</article>
+		</CardWrapper>
 	);
 }
 
@@ -142,6 +158,10 @@ function getTagIcon(tag: string): string {
 		PostgreSQL:
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
 		Jest: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+		Docker:
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+		"GitHub Actions": "https://cdn.simpleicons.org/githubactions/2088ff",
+		WebRTC: "https://cdn.simpleicons.org/webrtc/333333",
 	};
 
 	return iconMap[tag] ?? "https://cdn.simpleicons.org/devdotto/6b7280";

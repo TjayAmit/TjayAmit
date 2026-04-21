@@ -8,9 +8,9 @@ import { PROFILE } from "@/data/portfolio";
 export default function HeroPortrait() {
 	return (
 		<div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[26rem] lg:h-[26rem]">
-			<div className="absolute -inset-8 rounded-full bg-indigo-500/25 blur-3xl" />
-			<div className="absolute -inset-10 rounded-full bg-purple-500/20 blur-3xl" />
-			<div className="absolute inset-0 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.4)_0%,rgba(99,102,241,0.12)_45%,rgba(0,0,0,0)_75%)] dark:bg-[radial-gradient(circle,rgba(30,41,59,0.4)_0%,rgba(99,102,241,0.18)_45%,rgba(0,0,0,0)_75%)]" />
+			<div className="pointer-events-none absolute -inset-8 rounded-full bg-indigo-500/25 blur-3xl" />
+			<div className="pointer-events-none absolute -inset-10 rounded-full bg-purple-500/20 blur-3xl" />
+			<div className="pointer-events-none absolute inset-0 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.4)_0%,rgba(99,102,241,0.12)_45%,rgba(0,0,0,0)_75%)] dark:bg-[radial-gradient(circle,rgba(30,41,59,0.4)_0%,rgba(99,102,241,0.18)_45%,rgba(0,0,0,0)_75%)]" />
 
 			<div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-4 lg:-top-4 lg:-right-6 z-30 pointer-events-none">
 				<NextImage

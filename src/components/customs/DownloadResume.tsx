@@ -47,17 +47,17 @@ export default function DownloadResume({
 		<button
 			onClick={downloadResume}
 			disabled={loading}
-			className="px-4 py-2.5 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-sm"
+			className="px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-sm"
 		>
 			<span className="flex items-center gap-2">
 				{loading ? (
 					<>
-						<LoadingIcon className="h-4 w-4" />
+						<LoadingIcon className="h-3.5 w-3.5" />
 						Loading...
 					</>
 				) : (
 					<>
-						<ResumeIcon className="w-4 h-4" />
+						<ResumeIcon className="w-3.5 h-3.5" />
 						Resume
 					</>
 				)}
@@ -96,7 +96,7 @@ function ResumeIcon({ className }: { className: string }) {
 			className={className}
 			fill="none"
 			stroke="currentColor"
-			viewBox="0 0 24 24"
+			viewBox="0 0 22 22"
 		>
 			<path
 				strokeLinecap="round"

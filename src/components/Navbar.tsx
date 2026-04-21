@@ -17,14 +17,27 @@ export default function Navbar() {
 
 			const offset = 150;
 			let nextSection = "";
-			for (const section of NAV_ITEMS.map((item) => item.href)) {
+			const sections = NAV_ITEMS.map((item) => item.href);
+			
+			for (let i = 0; i < sections.length; i++) {
+				const section = sections[i];
 				const element = document.getElementById(section);
 				if (!element) continue;
 
 				const rect = element.getBoundingClientRect();
-				if (rect.top <= offset && rect.bottom >= offset) {
-					nextSection = section;
-					break;
+				
+				// For the last section, check if we're near the bottom of the page
+				if (i === sections.length - 1) {
+					const isAtBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+					if (isAtBottom || (rect.top <= offset && rect.bottom >= offset)) {
+						nextSection = section;
+						break;
+					}
+				} else {
+					if (rect.top <= offset && rect.bottom >= offset) {
+						nextSection = section;
+						break;
+					}
 				}
 			}
 			setActiveSection(nextSection || NAV_ITEMS[0]?.href || "");
@@ -84,7 +97,9 @@ export default function Navbar() {
 								activeSection={activeSection}
 								onClick={handleNavClick}
 							/>
-							<DownloadResume />
+							<div className="ml-4 lg:ml-6">
+								<DownloadResume />
+							</div>
 						</div>
 
 						<button

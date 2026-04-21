@@ -117,39 +117,39 @@ export const PROJECT_CATEGORIES = [
 export const PROJECTS: Project[] = [
 	{
 		id: 1,
-		title: "Telemedicine System",
+		title: "Dashboard",
 		description:
-			"Built a telemedicine platform with video consultations to reduce emergency room congestion and extend specialist access to remote patients across Zamboanga del Sur, Zamboanga Sibugay, Zamboanga del Norte, and BASULTA.",
-		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "WebSocket"],
+			"A company-wide public dashboard for real-time transaction monitoring, tracking fund allocation and utilization with consolidated insights into operational data and inventory status.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL", "Docker", "GitHub Actions"],
 		category: "fullstack",
-		image: "/assets/images/telemedicine_web.png",
-		liveUrl: "https://example.com/demo-ecommerce",
-		githubUrl: "https://github.com/yourusername/ecommerce-platform",
+		image: "/assets/images/dashboard.png",
+		liveUrl: "https://dashboard.zcmc.online",
+		githubUrl: "https://github.com/yourusername/dashboard",
 		metrics: {
-			users: "10k+",
-			performance: "98/100",
+			realtime: "24/7",
+			insights: "100%",
 		},
 	},
 	{
 		id: 2,
-		title: "Referral System",
+		title: "Mearb",
 		description:
-			"Developed a hospital referral network for emergency patient transfers, aligning transfer requests with receiving-facility readiness and helping decongest ZCMC through coordinated hospital-to-hospital communication.",
-		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL"],
-		category: "frontend",
-		image: "/assets/images/referral.png",
-		liveUrl: "https://yourportfolio.com",
-		githubUrl: "https://github.com/yourusername/portfolio",
+			"Mearb is an e-bidding system that digitizes supplier participation and standardizes procurement workflows, incorporating performance-based scoring from historical transactions and documents while automating bid computations for consistent and transparent evaluation results.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL", "Docker", "GitHub Actions"],
+		category: "fullstack",
+		image: "/assets/images/mearb.png",
+		liveUrl: "https://mearb.zcmc.online",
+		githubUrl: "https://github.com/yourusername/mearb",
 		metrics: {
-			lighthouse: "100/100",
-			loadTime: "<1s",
+			efficiency: "60%",
+			transparency: "100%",
 		},
 	},
 	{
 		id: 3,
 		title: "User Management Information System",
 		description:
-			"Led development of a Central User Management and Human Resource Information System that serves as the hospital's unified records and authentication hub for multiple internal systems.",
+			"UMIS is a Central User Management and Human Resource Information System that serves as the hospital's unified records and authentication hub for multiple internal systems.",
 		tags: [
 			"Laravel",
 			"PHP",
@@ -159,13 +159,45 @@ export const PROJECTS: Project[] = [
 			"FastAPI",
 			"Dart",
 			"Python",
+			"WebSocket",
 		],
 		category: "backend",
 		image: "/assets/images/umis.png",
+		liveUrl: "https://zcmc.online",
 		githubUrl: "https://github.com/yourusername/task-api",
 		metrics: {
 			coverage: "95%",
 			uptime: "99.9%",
+		},
+	},
+	{
+		id: 4,
+		title: "Telemedicine System",
+		description:
+			"Online consultation platform decongesting the hospital by delivering hospital services to remote areas and other regions through virtual consultations.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "WebSocket", "WebRTC", "WebSocket"],
+		category: "fullstack",
+		image: "/assets/images/telemedicine.png",
+		liveUrl: "https://telemedicine.zcmc.online",
+		githubUrl: "https://github.com/yourusername/ecommerce-platform",
+		metrics: {
+			users: "10k+",
+			performance: "98/100",
+		},
+	},
+	{
+		id: 5,
+		title: "Referral System",
+		description:
+			"Hospital referral network streamlining patient transfers from different areas in the region and other regions, ensuring transferred patients have prepared bed accommodation at receiving facilities.",
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL", "WebSocket"],
+		category: "frontend",
+		image: "/assets/images/referral.png",
+		liveUrl: "https://yourportfolio.com",
+		githubUrl: "https://github.com/yourusername/portfolio",
+		metrics: {
+			lighthouse: "100/100",
+			loadTime: "<1s",
 		},
 	},
 ];
@@ -210,13 +242,13 @@ export const SIDE_PROJECTS = [
 ];
 
 export const CONTACT_INFO = {
-	email: "your.email@example.com",
+	email: "tristanjayamit0813@gmail.com",
 	phone: "+63 912 345 6789",
 	location: "Zamboanga City, Philippines",
 	responseTime: "Usually within 24 hours",
 };
 
 export const RESUME = {
-	path: "/assets/resume.pdf",
+	path: "/assets/resume/Tristan_Jay_Resume.pdf",
 	filename: "Tristan_Jay_Resume.pdf",
 };
