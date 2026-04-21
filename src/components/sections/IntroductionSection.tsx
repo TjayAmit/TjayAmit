@@ -120,15 +120,6 @@ export default function IntroductionSection() {
 					border-right-color: transparent;
 				}
 
-				.no-scrollbar {
-					-ms-overflow-style: none;
-					scrollbar-width: none;
-				}
-
-				.no-scrollbar::-webkit-scrollbar {
-					display: none;
-				}
-
 				@keyframes typing {
 					from {
 						width: 0;

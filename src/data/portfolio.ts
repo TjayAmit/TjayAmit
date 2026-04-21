@@ -175,7 +175,7 @@ export const PROJECTS: Project[] = [
 		title: "Telemedicine System",
 		description:
 			"Online consultation platform decongesting the hospital by delivering hospital services to remote areas and other regions through virtual consultations.",
-		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "WebSocket", "WebRTC", "WebSocket"],
+		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "WebSocket", "WebRTC"],
 		category: "fullstack",
 		image: "/assets/images/telemedicine.png",
 		liveUrl: "https://telemedicine.zcmc.online",

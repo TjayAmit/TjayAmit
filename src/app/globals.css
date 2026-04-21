@@ -56,3 +56,13 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   filter: brightness(1.08);
 }
+
+/* Hide scrollbar utility */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
