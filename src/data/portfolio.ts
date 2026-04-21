@@ -193,7 +193,7 @@ export const PROJECTS: Project[] = [
 		tags: ["Laravel", "PHP", "React", "Tailwind CSS", "MySQL", "WebSocket"],
 		category: "frontend",
 		image: "/assets/images/referral.png",
-		liveUrl: "https://yourportfolio.com",
+		liveUrl: "https://referral.zcmc.online",
 		githubUrl: "https://github.com/yourusername/portfolio",
 		metrics: {
 			lighthouse: "100/100",
