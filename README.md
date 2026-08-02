@@ -1,45 +1,81 @@
-# 👋 Hi, I'm TjayAmit!
+<div align="center">
 
-## 🚀 About Me
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+TjayAmit;Software+Engineer+%7C+Healthcare+Systems;Building+Scalable%2C+Mission-Critical+Software" alt="Typing SVG" />
 
-I'm a passionate **Software Engineer** specializing in building impactful solutions with **JavaScript**, **React**, and **Laravel**. My work is driven by a mission to bridge gaps in healthcare and empower organizations through innovative software.
+</div>
 
----
+## About Me
 
-## 🩺 Key Projects
+Software Engineer specializing in **JavaScript**, **React**, and **Laravel**, with hands-on experience across the full stack — from application code to the infrastructure it runs on (**Docker**, **Kubernetes**). I build systems for healthcare organizations where reliability and interoperability aren't optional: identity access, patient referrals, and standards-based data exchange (**FHIR**).
 
-- **Telemedicine Platform**  
-  _Connecting doctors to doctors as referring partners, ensuring patients in remote areas receive timely and expert care._
-- **Patient Navigation and Referral System**  
-  _Streamlining hospital-to-tertiary hospital transfer requests, optimizing patient journeys and outcomes._
-- **UMIS (User Management Information System)**  
-  _A centralized HRIS solution that unifies employee accounts, delivering secure, single-source authorization and authentication for organizations._
+<br/>
 
----
+## What I Build
 
-## 🛠️ Top Skills
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- JavaScript, React
-- Laravel, PHP
-- System Design for Healthcare
-- User Management & Authentication
-- Building Scalable, Mission-Critical Applications
+**Telemedicine Platform**
+Doctor-to-doctor referral network connecting remote patients to timely, expert care.
 
----
+**Patient Navigation & Referral System**
+Streamlines hospital-to-tertiary transfer requests, optimizing patient journeys.
 
-## ☕ Fun Fact
+**UMIS — User Management Information System**
+Centralized HRIS unifying employee accounts with secure, single-source auth.
 
-I thrive on challenging tasks—where my skills grow the most. Also, coffee is my code fuel!
+</td>
+<td width="50%" valign="top">
 
----
+**Company IAM System**
+Identity and Access Management centralizing authentication/authorization org-wide.
 
-<!--
-🔗 Add your social links and project URLs here!
-[LinkedIn]()
-[Twitter]()
-[Personal Website]()
--->
+**Uptime Monitoring Dashboard**
+Real-time service health visualization built with **React Flow**.
 
----
+**Kubernetes Automation Tooling**
+Automated build/deploy workflows to speed up and de-risk releases.
 
-Thanks for visiting my profile! Let's connect and build something amazing together.
+</td>
+</tr>
+</table>
+
+<br/>
+
+## Tech & Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,react,laravel,php,docker,kubernetes,nodejs,mysql,git&theme=dark" alt="Skills" />
+
+</div>
+
+<br/>
+
+**Also working with:** Identity & Access Management (IAM) · FHIR / HL7 Interoperability · Containerized Deployments · System Design for Healthcare
+
+<br/>
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=TjayAmit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TjayAmit&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=TjayAmit&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+Thanks for stopping by — let's build something reliable together.
+
+</div>
