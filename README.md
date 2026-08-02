@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi, I'm TjayAmit
-### Software Engineer
+### Software Engineer / DevOps / AI-Integrated Solutions
 
 </div>
 
