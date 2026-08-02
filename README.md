@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+TjayAmit;Software+Engineer+%7C+Healthcare+Systems;Building+Scalable%2C+Mission-Critical+Software" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+TjayAmit;Software+Engineer;Building+Scalable%2C+Mission-Critical+Software" alt="Typing SVG" />
 
 </div>
 
@@ -61,8 +61,8 @@ Automated build/deploy workflows to speed up and de-risk releases.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TjayAmit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TjayAmit&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=TjayAmit&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=TjayAmit&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
 </div>
 
