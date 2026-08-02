@@ -7,7 +7,7 @@
 
 ## About Me
 
-Software Engineer specializing in **JavaScript**, **React**, and **Laravel**, with hands-on experience across the full stack — from application code to the infrastructure it runs on (**Docker**, **Kubernetes**). I build systems for healthcare organizations where reliability and interoperability aren't optional: identity access, patient referrals, and standards-based data exchange (**FHIR**).
+Software Engineer specializing in **JavaScript**, **React**, and **Laravel**, with hands-on experience across the full stack — from application code to CI/CD and deployment infrastructure (**Docker**, **Kubernetes**). I build systems for healthcare organizations where reliability and interoperability aren't optional: identity access, patient referrals, and standards-based data exchange (**FHIR**).
 
 <br/>
 
@@ -42,7 +42,7 @@ Real-time inventory tracking system for pharmacy stock, giving accurate, up-to-d
 Real-time dashboard built with **React Flow** that visualizes which applications and servers are online, offline, or degraded at a glance.
 
 **Kubernetes Automation Tooling**
-Automated build/deploy workflows to speed up and de-risk releases.
+Automated CI/CD build/deploy workflows on Kubernetes to speed up and de-risk releases.
 
 **WebRTC Video Calling**
 Integrated real-time video/voice calling using WebRTC, including setting up and understanding STUN/TURN relay for NAT traversal, and establishing a self-hosted TURN server with **coturn**.
@@ -63,7 +63,7 @@ Integrated real-time video/voice calling using WebRTC, including setting up and 
 
 <br/>
 
-**Also working with:** Identity & Access Management (IAM) · FHIR / HL7 Interoperability · Containerized Deployments · System Design for Healthcare · WebRTC (STUN/TURN, coturn)
+**Also working with:** Identity & Access Management (IAM) · FHIR / HL7 Interoperability · CI/CD & Containerized Deployments · System Design for Healthcare · WebRTC (STUN/TURN, coturn)
 
 <br/>
 
