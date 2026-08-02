@@ -16,20 +16,20 @@ Software Engineer specializing in **JavaScript**, **React**, and **Laravel**, wi
 <tr>
 <td width="50%" valign="top">
 
+**Company IAM System**
+Identity and Access Management platform built as the successor to the legacy UMIS (User Management Information System), centralizing authentication and authorization org-wide.
+
 **Telemedicine Platform**
-Doctor-to-doctor referral network connecting remote patients to timely, expert care.
+Doctor-to-doctor referral network live across 4 provinces region-wide in Mindanao, connecting remote patients to timely, expert care.
 
-**Patient Navigation & Referral System**
-Streamlines hospital-to-tertiary transfer requests, optimizing patient journeys.
-
-**UMIS — User Management Information System**
-Centralized HRIS unifying employee accounts with secure, single-source auth.
+**Patient Referral System**
+Handles region-wide patient transfer requests between hospitals, optimizing patient journeys and outcomes.
 
 </td>
 <td width="50%" valign="top">
 
-**Company IAM System**
-Identity and Access Management centralizing authentication/authorization org-wide.
+**FHIR Integration**
+Implemented FHIR-based interoperability to enable standards-compliant health data exchange across systems.
 
 **Uptime Monitoring Dashboard**
 Real-time service health visualization built with **React Flow**.
@@ -54,23 +54,6 @@ Automated build/deploy workflows to speed up and de-risk releases.
 <br/>
 
 **Also working with:** Identity & Access Management (IAM) · FHIR / HL7 Interoperability · Containerized Deployments · System Design for Healthcare
-
-<br/>
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=TjayAmit&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=TjayAmit&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=TjayAmit&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-
-</div>
 
 <br/>
 
