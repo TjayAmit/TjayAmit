@@ -57,7 +57,7 @@ Integrated real-time video/voice calling using WebRTC, including setting up and 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,react,laravel,php,docker,kubernetes,nodejs,mysql,git&theme=dark" alt="Skills" />
+<img src="https://skillicons.dev/icons?i=js,react,laravel,php,docker,kubernetes,nodejs,mysql,postgres,git&theme=dark" alt="Skills" />
 
 </div>
 
