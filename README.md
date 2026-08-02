@@ -39,7 +39,7 @@ A new way to bid in the Philippines — a digital eBidding platform built with M
 Real-time inventory tracking system for pharmacy stock, giving accurate, up-to-date visibility across locations.
 
 **Uptime Monitoring Dashboard**
-Real-time service health visualization built with **React Flow**.
+Real-time dashboard built with **React Flow** that visualizes which applications and servers are online, offline, or degraded at a glance.
 
 **Kubernetes Automation Tooling**
 Automated build/deploy workflows to speed up and de-risk releases.
