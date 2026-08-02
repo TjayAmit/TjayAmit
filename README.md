@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+TjayAmit;Software+Engineer;Building+Scalable%2C+Mission-Critical+Software" alt="Typing SVG" />
+# Hi, I'm TjayAmit
+### Software Engineer
 
 </div>
 
@@ -25,11 +26,17 @@ Doctor-to-doctor referral network live across 4 provinces region-wide in Mindana
 **Patient Referral System**
 Handles region-wide patient transfer requests between hospitals, optimizing patient journeys and outcomes.
 
+**FHIR Integration**
+Implemented FHIR-based interoperability to enable standards-compliant health data exchange across systems.
+
 </td>
 <td width="50%" valign="top">
 
-**FHIR Integration**
-Implemented FHIR-based interoperability to enable standards-compliant health data exchange across systems.
+**eBidding with Mearb**
+A new way to bid in the Philippines — a digital eBidding platform built with Mearb to modernize procurement and bidding processes.
+
+**Pharmacy Master Inventory**
+Real-time inventory tracking system for pharmacy stock, giving accurate, up-to-date visibility across locations.
 
 **Uptime Monitoring Dashboard**
 Real-time service health visualization built with **React Flow**.
